@@ -429,6 +429,7 @@ footer a:hover {
     .contact-page,
     .about-me {
         padding: 9rem 1.5rem 3rem;
+        margin-top: 2rem;
     }
     .about-p1 {
         font-size: 1rem;
@@ -476,6 +477,10 @@ footer a:hover {
         width: 100%;
     }
 
+    .about-me {
+        margin-top: 2rem;
+    }
+
     .items {
         margin-top: 8rem;
         grid-template-columns: 1fr;
@@ -518,6 +523,10 @@ footer a:hover {
         font-size: 1.1rem;
     }
     
+
+    .about-me {
+        margin-top: 3rem;
+    }
 }
 
 @media (max-width: 280px) {
@@ -536,5 +545,9 @@ footer a:hover {
     .des2,
     .des3 {
         font-size: 0.9rem;
+    }
+
+    .about-me{
+        margin-top: 4rem;
     }
 }
